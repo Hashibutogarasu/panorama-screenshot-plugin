@@ -1,0 +1,12 @@
+name: Panorama_screenshot
+version: '1.0'
+main: com.panorama_screenshot.Panorama_screenshot
+api-version: 1.17
+authors: [ Columba_Karasu ]
+commands:
+  screenshot:
+    aliases: [ sc, screenshot ]
+    description: Command description
+    permission: com.panorama_screenshot.screenshot
+    permission-message: Permission denied
+    usage: Failed to Take Screenshot
